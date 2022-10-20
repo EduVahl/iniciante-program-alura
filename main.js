@@ -1,8 +1,6 @@
 const listaTeclas = document.querySelectorAll('.tecla');
 const listaSons = document.querySelectorAll('.som');
 
-
-
 for(let i = 0; i < listaTeclas.length; i++){
     listaTeclas[i].onclick = function (){listaSons[i].play();
     }
